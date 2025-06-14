@@ -38,3 +38,6 @@ Thumbs.db
 *.log
 *.tmp
 *.temp
+
+# Project roadmap
+main-roadmap.md

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fits parser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Upload a FITS file. Only one fits file can be processed at the moment.</h1>
+    <div id="drop_zone" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)">
+        <p>Drop a FITS file in here</p>
+    </div>
+
+    <canvas id="canvas">
+
+    </canvas>
+    <script src="main.js"></script>
+</body>
+
+</html>
